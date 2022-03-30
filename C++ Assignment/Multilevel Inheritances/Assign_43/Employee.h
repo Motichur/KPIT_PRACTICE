@@ -1,0 +1,16 @@
+#include"Date.h"
+
+#ifndef _EMPOLYEE_H_
+#define _EMPOLYEE_H_
+class Employee
+{
+	int id;
+	char name[20];
+	Date dob;
+public:
+	Employee();
+	Employee(int, const char*, int, int, int);
+	void display();
+};
+
+#endif

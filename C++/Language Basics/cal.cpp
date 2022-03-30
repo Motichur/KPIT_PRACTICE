@@ -1,0 +1,37 @@
+//perform choice based arithmetic
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int ch;
+    cout<<"Enter your choice"<<endl;
+    cout<<"1.Addition"<<endl;
+    cout<<"2.Subtraction"<<endl;
+    cout<<"3.Multiplication"<<endl;
+    cout<<"4.Divide"<<endl;
+    cin>>ch;
+    int a=5,b=7;
+    switch (ch)
+    {
+    case 1: 
+            cout<<a+b<<endl;
+        break;
+
+    case 2: 
+            cout<<a-b<<endl;
+        break;
+    
+    case 3: 
+            cout<<a*b<<endl;
+        break;
+
+    case 4: 
+            cout<<a/b<<endl;
+        break;
+    default:
+            cout<<"Wrong chocie "<<endl;
+        break;
+    }
+    return 0;
+}
